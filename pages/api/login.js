@@ -2,6 +2,7 @@ const a_id = "id";
 const a_pw = 1234;
 
 export default function login(req, res) {
+  console.log("방금 내가 찍은것 ~~~~~~~~~~~~~~~~~~~~~~~~~");
   const id = req.body.id;
   const pw = req.body.pw;
 
